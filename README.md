@@ -169,7 +169,7 @@ Below are some examples of the visualizations created from this analysis:
 ### The ingredients most frequently used in recipes
 This visual shows the ingredients most frequently used in recipes,
 listed in order of frequency of appearance.  
-![Chart](https://ibb.co/m8gXTLh)
+![Chart](https://raw.githubusercontent.com/noahsgds/image/refs/heads/main/Capture%20d%E2%80%99e%CC%81cran%202024-11-15%20a%CC%80%2011.26.03.png?token=GHSAT0AAAAAAC2NNGSOI7PKZ2GNUP76GFGMZZXOGZQ)
 
 
 Through these visualizations, we effectively transformed raw data into actionable insights, empowering users to make informed decisions when exploring recipes. By combining the power of data scraping and visualization, we provided a seamless and intuitive way to interact with the culinary data.
