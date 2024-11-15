@@ -1,0 +1,560 @@
+[
+    {
+      "Nom Recette": "Pot-au-feu facile",
+      "Temps de preparation": "2h30",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "clou de girofle",
+        "ingredient 4": "oignon",
+        "ingredient 5": "poireau",
+        "ingredient 6": "carotte",
+        "ingredient 7": "boeuf",
+        "ingredient 8": "os à moelle",
+        "ingredient 9": "chou-rave",
+        "ingredient 10": "céleri",
+        "ingredient 11": "ail",
+        "ingredient 12": "bouquet garni"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_pot-au-feu-facile_44578.aspx"
+    },
+    {
+      "Nom Recette": "Boeuf bourguignon : la vraie recette",
+      "Temps de preparation": "5 h",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "poivre",
+        "ingredient 2": "sel",
+        "ingredient 3": "beurre",
+        "ingredient 4": "vin rouge",
+        "ingredient 5": "carotte",
+        "ingredient 6": "oignon",
+        "ingredient 7": "bourguignon",
+        "ingredient 8": "bouquet garni"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_boeuf-bourguignon_18889.aspx"
+    },
+    {
+      "Nom Recette": "Moules marinières",
+      "Temps de preparation": "1 h",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "poivre",
+        "ingredient 2": "sel",
+        "ingredient 3": "persil",
+        "ingredient 4": "farine",
+        "ingredient 5": "beurre",
+        "ingredient 6": "moules",
+        "ingredient 7": "échalote",
+        "ingredient 8": "vin blanc sec"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_moules-marinieres_13214.aspx"
+    },
+    {
+      "Nom Recette": "Courgettes farcies",
+      "Temps de preparation": "1h10",
+      "Difficulte de preparation": "moyenne",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "fromage râpé",
+        "ingredient 2": "oignon",
+        "ingredient 3": "huile d'olive",
+        "ingredient 4": "sel",
+        "ingredient 5": "poivre",
+        "ingredient 6": "courgette",
+        "ingredient 7": "porc",
+        "ingredient 8": "coulis de tomate"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_courgettes-farcies_11192.aspx"
+    },
+    {
+      "Nom Recette": "Filet mignon de porc à la moutarde",
+      "Temps de preparation": "1h05",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "beurre",
+        "ingredient 2": "huile d'olive",
+        "ingredient 3": "moutarde",
+        "ingredient 4": "crème fraîche",
+        "ingredient 5": "bouillon de légumes",
+        "ingredient 6": "filet mignon",
+        "ingredient 7": "vin blanc sec",
+        "ingredient 8": "champignon"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_filet-mignon-de-porc-a-la-moutarde_36310.aspx"
+    },
+    {
+      "Nom Recette": "Lasagnes à la bolognaise",
+      "Temps de preparation": "2h05",
+      "Difficulte de preparation": "moyenne",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "beurre",
+        "ingredient 2": "farine",
+        "ingredient 3": "poivre",
+        "ingredient 4": "sel",
+        "ingredient 5": "fromage râpé",
+        "ingredient 6": "muscade",
+        "ingredient 7": "thym",
+        "ingredient 8": "feuille de laurier",
+        "ingredient 9": "vin rouge",
+        "ingredient 10": "purée de tomate",
+        "ingredient 11": "carotte",
+        "ingredient 12": "oignon jaune",
+        "ingredient 13": "lasagnes",
+        "ingredient 14": "ail",
+        "ingredient 15": "céleri",
+        "ingredient 16": "boeuf haché",
+        "ingredient 17": "eau",
+        "ingredient 18": "basilic",
+        "ingredient 19": "Parmesan",
+        "ingredient 20": "lait"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx"
+    },
+    {
+      "Nom Recette": "Aubergines au four",
+      "Temps de preparation": "40 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "huile d'olive",
+        "ingredient 4": "aubergine",
+        "ingredient 5": "herbes de Provence"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_aubergines-au-four_13572.aspx"
+    },
+    {
+      "Nom Recette": "Couscous poulet et merguez facile",
+      "Temps de preparation": "1h05",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "pois chiches",
+        "ingredient 2": "courgette",
+        "ingredient 3": "carotte",
+        "ingredient 4": "tomate",
+        "ingredient 5": "cube de bouillon",
+        "ingredient 6": "harissa",
+        "ingredient 7": "huile d'olive",
+        "ingredient 8": "merguez",
+        "ingredient 9": "pilon de poulet",
+        "ingredient 10": "concentré de tomates",
+        "ingredient 11": "épices à couscous",
+        "ingredient 12": "navet"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_couscous-poulet-et-merguez-facile_17751.aspx"
+    },
+    {
+      "Nom Recette": "Pâtes à la \"carbonara\" à la française",
+      "Temps de preparation": "20 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "oignon",
+        "ingredient 2": "lardons",
+        "ingredient 3": "poivre",
+        "ingredient 4": "sel",
+        "ingredient 5": "crème fraîche",
+        "ingredient 6": "pâtes",
+        "ingredient 7": "jaune d'oeuf"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_pates-a-la-carbonara_80453.aspx"
+    },
+    {
+      "Nom Recette": "Poulet au four simple et savoureux",
+      "Temps de preparation": "1h55",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "poivre",
+        "ingredient 2": "sel",
+        "ingredient 3": "feuille de laurier",
+        "ingredient 4": "tomates cerise",
+        "ingredient 5": "oignon",
+        "ingredient 6": "poulet",
+        "ingredient 7": "ail",
+        "ingredient 8": "jus de citron",
+        "ingredient 9": "bouillon de volaille"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_poulet-au-four-version-light_218020.aspx"
+    },
+    {
+      "Nom Recette": "Délicieuse marinade pour poulet ",
+      "Temps de preparation": "35 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "huile",
+        "ingredient 2": "vinaigre balsamique",
+        "ingredient 3": "miel",
+        "ingredient 4": "sel",
+        "ingredient 5": "poivre",
+        "ingredient 6": "blanc de poulet",
+        "ingredient 7": "jus de citron",
+        "ingredient 8": "sauce soja",
+        "ingredient 9": "ail"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_delicieuse-marinade-pour-poulet_345860.aspx"
+    },
+    {
+      "Nom Recette": "Cuisses de poulet au four",
+      "Temps de preparation": "45 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "huile d'olive",
+        "ingredient 2": "clou de girofle",
+        "ingredient 3": "feuille de laurier",
+        "ingredient 4": "thym",
+        "ingredient 5": "oignon",
+        "ingredient 6": "cuisse de poulet",
+        "ingredient 7": "eau",
+        "ingredient 8": "ail",
+        "ingredient 9": "bouillon de volaille",
+        "ingredient 10": "genièvre"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_cuisses-de-poulet-au-four_67408.aspx"
+    },
+    {
+      "Nom Recette": "Rougail saucisse",
+      "Temps de preparation": "40 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "huile d'olive",
+        "ingredient 2": "piment",
+        "ingredient 3": "curcuma",
+        "ingredient 4": "sel",
+        "ingredient 5": "poivre",
+        "ingredient 6": "thym",
+        "ingredient 7": "oignon",
+        "ingredient 8": "tomate",
+        "ingredient 9": "saucisse",
+        "ingredient 10": "ail",
+        "ingredient 11": "laurier"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_rougail-saucisse_22851.aspx"
+    },
+    {
+      "Nom Recette": "Tomates farcies facile",
+      "Temps de preparation": "1h20",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "beurre",
+        "ingredient 4": "persil",
+        "ingredient 5": "thym",
+        "ingredient 6": "oignon",
+        "ingredient 7": "tomate",
+        "ingredient 8": "chair à saucisse",
+        "ingredient 9": "ail"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_tomates-farcies-facile_63622.aspx"
+    },
+    {
+      "Nom Recette": "Rôti de boeuf au four tout simple",
+      "Temps de preparation": "30 min",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "thym",
+        "ingredient 2": "sel",
+        "ingredient 3": "poivre",
+        "ingredient 4": "huile d'olive",
+        "ingredient 5": "rôti de boeuf",
+        "ingredient 6": "ail",
+        "ingredient 7": "eau"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_roti-de-boeuf-au-four-tout-simple_342546.aspx"
+    },
+    {
+      "Nom Recette": "La pâte à galettes de blé noir traditionnelle",
+      "Temps de preparation": "20 min",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "gros sel",
+        "ingredient 2": "farine de blé noir",
+        "ingredient 3": "eau",
+        "ingredient 4": "oeuf"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_la-pate-a-galettes-de-ble-noir-traditionnelle_35351.aspx"
+    },
+    {
+      "Nom Recette": "Andouillette sauce moutarde",
+      "Temps de preparation": "35 min",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "moutarde",
+        "ingredient 2": "andouillette",
+        "ingredient 3": "crème",
+        "ingredient 4": "échalote"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_andouillette-sauce-moutarde_19759.aspx"
+    },
+    {
+      "Nom Recette": "Gigot d'agneau : la recette traditionnelle",
+      "Temps de preparation": "55 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "gros sel",
+        "ingredient 2": "romarin",
+        "ingredient 3": "gigot d'agneau",
+        "ingredient 4": "ail",
+        "ingredient 5": "graisse d'oie",
+        "ingredient 6": "ail"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_gigot-d-agneau-a-l-ail-et-au-romarin_18696.aspx"
+    },
+    {
+      "Nom Recette": "Croque-monsieur",
+      "Temps de preparation": "15 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "muscade",
+        "ingredient 4": "gruyère râpé",
+        "ingredient 5": "jambon",
+        "ingredient 6": "beurre tendre",
+        "ingredient 7": "pain de mie",
+        "ingredient 8": "toastinette",
+        "ingredient 9": "lait"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_croque-monsieur_19208.aspx"
+    },
+    {
+      "Nom Recette": "Chili con carne facile",
+      "Temps de preparation": "35 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "persil",
+        "ingredient 2": "poivre",
+        "ingredient 3": "sel",
+        "ingredient 4": "bouillon de boeuf",
+        "ingredient 5": "haricots rouges",
+        "ingredient 6": "cumin en poudre",
+        "ingredient 7": "chili",
+        "ingredient 8": "oignon",
+        "ingredient 9": "beurre",
+        "ingredient 10": "ail",
+        "ingredient 11": "boeuf haché",
+        "ingredient 12": "concentré de tomates"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx"
+    },
+    {
+      "Nom Recette": "Pavés de saumon au four facile",
+      "Temps de preparation": "30 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "huile d'olive",
+        "ingredient 4": "oignon",
+        "ingredient 5": "saumon",
+        "ingredient 6": "citron",
+        "ingredient 7": "vin blanc",
+        "ingredient 8": "câpres"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_paves-de-saumon-au-four-facile_80135.aspx"
+    },
+    {
+      "Nom Recette": "Paëlla fruits de mer, chorizo et poulet de Patou",
+      "Temps de preparation": "1h10",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "huile d'olive",
+        "ingredient 4": "safran",
+        "ingredient 5": "oignon",
+        "ingredient 6": "tomate",
+        "ingredient 7": "poivron",
+        "ingredient 8": "riz",
+        "ingredient 9": "filet de poulet",
+        "ingredient 10": "calamar",
+        "ingredient 11": "moules",
+        "ingredient 12": "crevettes",
+        "ingredient 13": "chorizo",
+        "ingredient 14": "ail",
+        "ingredient 15": "bouillon de volaille"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_paella-fruits-de-mer-chorizo-et-poulet-de-patou_50730.aspx"
+    },
+    {
+      "Nom Recette": "Epaule d'agneau confite facile",
+      "Temps de preparation": "2h10",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "romarin",
+        "ingredient 2": "thym",
+        "ingredient 3": "poivre",
+        "ingredient 4": "fleur de sel",
+        "ingredient 5": "huile d'olive",
+        "ingredient 6": "harissa",
+        "ingredient 7": "épaule d'agneau",
+        "ingredient 8": "échalote",
+        "ingredient 9": "ail"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_epaule-d-agneau-confite-facile_67739.aspx"
+    },
+    {
+      "Nom Recette": "Souris d'agneau au miel et thym",
+      "Temps de preparation": "2h15",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "miel",
+        "ingredient 4": "huile d'olive",
+        "ingredient 5": "thym",
+        "ingredient 6": "souris d'agneau",
+        "ingredient 7": "ail"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_souris-d-agneau-au-miel-et-thym_93493.aspx"
+    },
+    {
+      "Nom Recette": "Bo Bun (Vietnam)",
+      "Temps de preparation": "35 min",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "vinaigre",
+        "ingredient 2": "sucre",
+        "ingredient 3": "eau",
+        "ingredient 4": "nuoc mam",
+        "ingredient 5": "vermicelles de riz",
+        "ingredient 6": "sel",
+        "ingredient 7": "poivre",
+        "ingredient 8": "curry",
+        "ingredient 9": "boeuf",
+        "ingredient 10": "ail",
+        "ingredient 11": "sauce d'huître",
+        "ingredient 12": "soja",
+        "ingredient 13": "glutamate",
+        "ingredient 14": "coriandre",
+        "ingredient 15": "batavia",
+        "ingredient 16": "soja",
+        "ingredient 17": "menthe",
+        "ingredient 18": "arachide",
+        "ingredient 19": "nem"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_bo-bun-vietnam_26967.aspx"
+    },
+    {
+      "Nom Recette": "La côte de bœuf au four facile et cuite à la perfection",
+      "Temps de preparation": "2h40",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "assez cher",
+      "Ingredients": {
+        "ingredient 1": "côte de boeuf",
+        "ingredient 2": "huile",
+        "ingredient 3": "fleur de sel",
+        "ingredient 4": "poivre",
+        "ingredient 5": "thym"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_la-cote-de-boeuf-au-four-facile-et-cuite-a-la-perfection_372549.aspx"
+    },
+    {
+      "Nom Recette": "La Vraie Moussaka Grecque",
+      "Temps de preparation": "2h55",
+      "Difficulte de preparation": "moyenne",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "sel",
+        "ingredient 2": "poivre",
+        "ingredient 3": "muscade",
+        "ingredient 4": "miel",
+        "ingredient 5": "beurre",
+        "ingredient 6": "huile d'olive",
+        "ingredient 7": "oignon",
+        "ingredient 8": "tomate",
+        "ingredient 9": "aubergine",
+        "ingredient 10": "pomme de terre",
+        "ingredient 11": "boeuf haché",
+        "ingredient 12": "cannelle",
+        "ingredient 13": "farine",
+        "ingredient 14": "beurre",
+        "ingredient 15": "lait"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_la-vraie-moussaka-grecque_72593.aspx"
+    },
+    {
+      "Nom Recette": "Rôti de porc tout simple",
+      "Temps de preparation": "50 min",
+      "Difficulte de preparation": "très facile",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "huile d'olive",
+        "ingredient 2": "sel",
+        "ingredient 3": "poivre",
+        "ingredient 4": "beurre",
+        "ingredient 5": "rôti de porc",
+        "ingredient 6": "ail",
+        "ingredient 7": "eau"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_roti-de-porc-tout-simple_170153.aspx"
+    },
+    {
+      "Nom Recette": "Risotto aux champignons : la vraie recette",
+      "Temps de preparation": "1h15",
+      "Difficulte de preparation": "moyenne",
+      "Prix moyen": "bon marché",
+      "Ingredients": {
+        "ingredient 1": "poivre",
+        "ingredient 2": "sel",
+        "ingredient 3": "persil",
+        "ingredient 4": "oignon",
+        "ingredient 5": "bouillon de légumes",
+        "ingredient 6": "beurre",
+        "ingredient 7": "huile d'olive",
+        "ingredient 8": "champignon",
+        "ingredient 9": "riz",
+        "ingredient 10": "vin blanc sec",
+        "ingredient 11": "Parmesan",
+        "ingredient 12": "ail",
+        "ingredient 13": "échalote"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_risotto-aux-champignons_312215.aspx"
+    },
+    {
+      "Nom Recette": "Steak tartare",
+      "Temps de preparation": "20 min",
+      "Difficulte de preparation": "facile",
+      "Prix moyen": "moyen",
+      "Ingredients": {
+        "ingredient 1": "persil",
+        "ingredient 2": "huile d'olive",
+        "ingredient 3": "sel",
+        "ingredient 4": "poivre",
+        "ingredient 5": "tabasco",
+        "ingredient 6": "oignon",
+        "ingredient 7": "moutarde de Dijon",
+        "ingredient 8": "boeuf",
+        "ingredient 9": "jaune d'oeuf",
+        "ingredient 10": "câpres",
+        "ingredient 11": "sauce worcestershire",
+        "ingredient 12": "ketchup"
+      },
+      "link": "https://www.marmiton.org/recettes/recette_steak-tartare_18121.aspx"
+    }
+  ]
