@@ -164,7 +164,7 @@ To provide further value, we analyzed the average preparation and cooking times 
 Below are some examples of the visualizations created from this analysis:
 
 ### Relationship between preparation time and level of difficulty.
-![Chart](https://ibb.co/G3kykPY)
+![Chart](https://raw.githubusercontent.com/noahsgds/image/refs/heads/main/Capture%20d%E2%80%99e%CC%81cran%202024-11-15%20a%CC%80%2011.21.38.png?token=GHSAT0AAAAAAC2NNGSO7XJLBUMDBRNFO5IYZZXODXA)
 
 ### The ingredients most frequently used in recipes
 This visual shows the ingredients most frequently used in recipes,
