@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriGo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <h1>FreeGo</h1>
+    
+    <div class="search-container">
+        <input type="text" class="search-input" id="ingredient" placeholder="Rechercher une recette par ingrédient...">
+        <button class="add-button" id="searchButton">Rechercher</button>
+        <button class="add-ingredient" id="addIngredientButton">+</button>
+    </div>
+    
+    <div class="filters">
+        <div class="filter">
+            <label for="type">Type :</label>
+            <select id="type">
+                <option value="">--Sélectionner--</option>
+                <option value="entree">Entrée</option>
+                <option value="plat">Plat</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="difficulty">Difficulté :</label>
+            <select id="difficulty">
+                <option value="">--Sélectionner--</option>
+                <option value="très facile">Très Facile</option>
+                <option value="facile">Facile</option>
+                <option value="moyenne">Moyenne</option>
+                <option value="difficile">Difficile</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="time">Temps de préparation :</label>
+            <select id="time">
+                <option value="">--Sélectionner--</option>
+                <option value="15">Moins de 15 min</option>
+                <option value="30">Moins de 30 min</option>
+                <option value="60">Moins de 1 heure</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="cost">Coût de préparation :</label>
+            <select id="cost">
+                <option value="">--Sélectionner--</option>
+                <option value="bon marché">Bon marché</option>
+                <option value="moyen">Moyen</option>
+                <option value="cher">Cher</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="selected-ingredients" id="selectedIngredients">
+        <h3>Ingrédients sélectionnés :</h3>
+        <ul id="ingredientList"></ul>
+    </div>
+
+    <div class="results" id="results"></div> <!-- Zone pour afficher les résultats -->
+    
+    <script>
+        const selectedIngredients = [];
+
+        document.getElementById('addIngredientButton').addEventListener('click', function() {
+            const ingredientInput = document.getElementById('ingredient');
+            const ingredient = ingredientInput.value.trim();
+
+            if (ingredient && !selectedIngredients.includes(ingredient)) {
+                selectedIngredients.push(ingredient);
+                updateIngredientList();
+                ingredientInput.value = ''; // Réinitialiser le champ de saisie
+            }
+        });
+
+        function updateIngredientList() {
+            const ingredientList = document.getElementById('ingredientList');
+            ingredientList.innerHTML = ''; // Clear previous list
+
+            selectedIngredients.forEach(ing => {
+                const li = document.createElement('li');
+                li.textContent = ing;
+
+                // Créer un bouton de suppression
+                const removeButton = document.createElement('button');
+                removeButton.textContent = '✖'; // Utiliser une croix
+                removeButton.className = 'remove-button';
+                removeButton.onclick = function() {
+                    removeIngredient(ing);
+                };
+
+                li.appendChild(removeButton); // Ajouter le bouton à la liste
+                ingredientList.appendChild(li);
+            });
+        }
+
+        function removeIngredient(ingredient) {
+            const index = selectedIngredients.indexOf(ingredient);
+            if (index > -1) {
+                selectedIngredients.splice(index, 1); // Supprimer l'ingrédient du tableau
+                updateIngredientList(); // Mettre à jour la liste affichée
+            }
+        }
+
+        document.getElementById('searchButton').addEventListener('click', function() {
+            const type = document.getElementById('type').value; // Récupérer le type sélectionné
+            const difficulty = document.getElementById('difficulty').value;
+            const time = document.getElementById('time').value;
+            const cost = document.getElementById('cost').value;
+
+            // Choisir le bon fichier JSON en fonction du type
+            let jsonFile;
+            if (type === 'entree') {
+                jsonFile = 'recipe_entree.json';
+            } else if (type === 'dessert') {
+                jsonFile = 'recipe_dessert.json'; // Assurez-vous que ce fichier existe
+            } else {
+                jsonFile = 'recipe_principal copie.json';
+            }
+
+            fetch(jsonFile)
+                .then(response => response.json())
+                .then(data => {
+                    const results = data.filter(recipe => {
+                        const matchesIngredient = selectedIngredients.length === 0 || 
+                            selectedIngredients.every(selected => recipe.ingredients.includes(selected.toLowerCase()));
+                        const matchesDifficulty = difficulty ? recipe.difficulty === difficulty : true;
+                        const matchesTime = time ? recipe.preparation_time <= time : true;
+                        const matchesCost = cost ? recipe.average_price === cost : true;
+                        return matchesIngredient && matchesDifficulty && matchesTime && matchesCost;
+                    });
+
+                    displayResults(results);
+                });
+        });
+
+        function displayResults(results) {
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = ''; // Clear previous results
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = '<p>Aucune recette trouvée.</p>';
+                return;
+            }
+
+            results.forEach(recipe => {
+                const resultItem = document.createElement('div');
+                resultItem.className = 'result-item';
+                
+                // Affichage du temps de préparation en heures et minutes
+                const totalMinutes = Math.round(recipe.preparation_time); // Garder le temps en minutes
+                const hours = Math.floor(totalMinutes / 60);
+                const minutes = totalMinutes % 60;
+
+                // Formatage du temps
+                const timeString = hours > 0 ? `${hours}h et ${minutes}min` : `${minutes}min`;
+
+                resultItem.innerHTML = `<h3>${recipe.recipe_name}</h3><p>Temps de préparation: ${timeString}</p><a href="${recipe.link}" target="_blank" class="view-recipe-button">Voir la recette</a>`;
+                resultsContainer.appendChild(resultItem);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff6f61, #FFB88C); /* Dégradé orange */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem; /* Augmenter la taille du titre */
+    text-align: center;
+    margin-bottom: 20px; /* Augmenter la marge en bas */
+    font-family: 'Georgia', serif; /* Changer la police pour un style plus élégant */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour le texte */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Augmenter la marge en bas */
+    background-color: #fff; /* Fond blanc pour la barre de recherche */
+    border-radius: 20px; /* Coins arrondis */
+    padding: 10px; /* Padding pour espacer le contenu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+    max-width: 800px; /* Limiter la largeur maximale */
+    margin: 0 auto; /* Centrer le cadre */
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+}
+
+.add-button,
+.add-ingredient {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; /* Espace entre le bouton et l'input */
+}
+
+.add-ingredient {
+    border-radius: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Augmenter la marge en haut et en bas des filtres */
+}
+
+.filter {
+    margin: 0 5px;
+}
+
+select {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    appearance: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.selected-ingredients {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px; /* Augmenter la marge en bas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+    max-width: 800px; /* Limiter la largeur maximale */
+    margin: 0 auto; /* Centrer le cadre */
+}
+
+.selected-ingredients h3 {
+    margin-top: 0;
+}
+
+.selected-ingredients ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-ingredients li {
+    display: flex; /* Utiliser Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espacer le nom et le bouton */
+    align-items: center; /* Centrer verticalement */
+    margin-bottom: 5px;
+}
+
+.results {
+    display: flex; /* Utiliser Flexbox pour les résultats */
+    flex-wrap: wrap; /* Permettre le retour à la ligne */
+    justify-content: center; /* Centrer les cartes */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px; /* Augmenter le padding pour un meilleur espacement */
+    max-width: 800px; /* Limiter la largeur maximale */
+    margin: 20px auto; /* Centrer le cadre et ajouter une marge en haut et en bas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+.result-item {
+    background-color: #f9f9f9; /* Fond des cartes */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px; /* Marge autour des cartes */
+    width: calc(25% - 20px); /* Largeur de 25% moins la marge */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+    transition: transform 0.2s; /* Animation pour l'effet de survol */
+}
+
+.result-item:hover {
+    transform: scale(1.05); /* Agrandir légèrement au survol */
+}
+
+.result-item h3 {
+    margin-top: 0;
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1; /* Rendre visible */
+        transform: translateY(0); /* Remettre à la position d'origine */
+    }
+}
+
+.remove-button {
+    background-color: #FF6347; /* Couleur rouge tomate */
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Rendre le bouton circulaire */
+    width: 30px; /* Largeur du bouton */
+    height: 30px; /* Hauteur du bouton */
+    display: flex;
+    align-items: center; /* Centrer le contenu verticalement */
+    justify-content: center; /* Centrer le contenu horizontalement */
+    cursor: pointer;
+    font-size: 16px; /* Taille de la croix */
+    margin-left: 10px; /* Marge à gauche pour espacer */
+}
+
+.remove-button:hover {
+    background-color: #d9534f; /* Couleur plus foncée au survol */
+}
+
+.view-recipe-button {
+    background-color: #FF6347; /* Couleur rouge tomate */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Coins arrondis */
+    padding: 10px 15px; /* Padding pour le bouton */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer;
+    text-decoration: none; /* Supprimer le soulignement */
+    display: inline-block; /* Permettre le padding et la largeur */
+    transition: background-color 0.3s; /* Animation pour le survol */
+}
+
+.view-recipe-button:hover {
+    background-color: #d9534f; /* Couleur plus foncée au survol */
+} 
