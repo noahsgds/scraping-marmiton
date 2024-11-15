@@ -231,7 +231,7 @@ The web application integrates the scraped data from Marmiton (processed using `
 
 ### Adding Visual Content
 
-![FreeGo Web Interface]([(https://github.com/noahsgds/image/blob/c28e4bdf8511377abb0b08324c533accf4373644/Capture%20d%E2%80%99e%CC%81cran%202024-11-15%20a%CC%80%2010.53.24.png?raw=true)](https://raw.githubusercontent.com/noahsgds/image/refs/heads/main/Capture%20d%E2%80%99e%CC%81cran%202024-11-15%20a%CC%80%2010.53.24.png?token=GHSAT0AAAAAAC2NNGSO75W67VNQAO62VFEWZZXOAVA))
+![FreeGo Web Interface]((https://raw.githubusercontent.com/noahsgds/image/refs/heads/main/Capture%20d%E2%80%99e%CC%81cran%202024-11-15%20a%CC%80%2010.53.24.png?token=GHSAT0AAAAAAC2NNGSO75W67VNQAO62VFEWZZXOAVA))
 
 
 
